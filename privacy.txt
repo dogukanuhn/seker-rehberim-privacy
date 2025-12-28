@@ -1,0 +1,517 @@
+ŞEKER REHBERİM - GİZLİLİK POLİTİKASI
+=====================================
+
+Son Güncelleme: 28 Aralık 2025
+
+Şeker Rehberim ("biz", "bizim", "uygulama") olarak, gizliliğinizi ciddiye alıyoruz. Bu Gizlilik Politikası, Şeker Rehberim mobil uygulamasını kullanırken hangi bilgilerin toplandığını, nasıl kullanıldığını ve korunduğunu açıklamaktadır.
+
+ÖNEMLİ: Uygulamayı kullanarak, bu Gizlilik Politikası'nda açıklanan bilgi toplama ve kullanım uygulamalarını kabul etmiş olursunuz.
+
+
+1. TOPLANAN BİLGİLER
+=====================
+
+1.1 Kişisel Bilgiler
+--------------------
+Uygulamamız, hizmet sağlamak için aşağıdaki kişisel bilgileri toplar:
+
+• Hesap Bilgileri: E-posta adresi, tam ad, şifre (şifrelenmiş)
+• Profil Bilgileri: Görünen ad, profil resmi (isteğe bağlı), hedef tipi (azaltma/bırakma), başlangıç tarihi
+• Kimlik Doğrulama: Google Sign-In veya Apple Sign-In ile giriş yaptığınızda sağlanan bilgiler
+
+1.2 Sağlık ve İlerleme Verileri
+--------------------------------
+Uygulamanın temel işlevlerini sağlamak için aşağıdaki bilgileri topluyoruz:
+
+• Günlük İlerleme: Şeker tüketim kayıtları, günlük notlar, tarihleri
+• Sağlık Metrikleri: Enerji seviyesi, uyku kalitesi, ruh hali değerlendirmeleri (tahmini değerler)
+• Kilometre Taşları: Başarılan hedefler ve tarihleri
+• Bırakma Nedenleri: Motivasyon kaynakları ve amaçlarınız
+• Tetikleyiciler: Şeker isteğinizi tetikleyen durumlar (duygusal, çevresel, durumsal)
+• Baş Etme Stratejileri: Tetikleyicilerle başa çıkmak için kullandığınız yöntemler
+• Nüksetme Kayıtları: Kaçamak durumları, nedenleri ve notları
+• Zaman Kapsülleri: Geleceğe kendinize yazdığınız mesajlar ve açılma tarihleri
+• Favori Aktiviteler: Zevk aktiviteleri ve deneyim kayıtları
+• Favori Alternatifler: Beğendiğiniz sağlıklı tatlandırıcı alternatifleri
+
+1.3 Eğitim İçeriği Etkileşimleri
+---------------------------------
+• Kaydedilen Makaleler: Bookmark ettiğiniz eğitim içerikleri
+• Okuma İlerlemesi: Makaleleri okuma durumunuz ve ilerlemeniz
+
+1.4 Bildirim Verileri
+---------------------
+• Bildirim Tercihleri: Bildirim ayarlarınız, tercih edilen saatler, sessiz saatler
+• Bildirim Geçmişi: Gönderilen bildirimlerin tarihleri ve türleri
+• Push Notification Token: Bildirim göndermek için cihaz tokeni
+
+1.5 Cihaz ve Kullanım Bilgileri
+--------------------------------
+• Cihaz Bilgileri: İşletim sistemi, uygulama sürümü, dil tercihi
+• Kamera Erişimi: Barkod tarama özelliği kullanıldığında (sadece o an için)
+• Ağ Durumu: Çevrimdışı/çevrimiçi durumu (senkronizasyon için)
+
+1.6 Abonelik Bilgileri
+----------------------
+• Satın Alma Kayıtları: Premium abonelik durumu ve işlem geçmişi
+• RevenueCat ID: Platformlar arası abonelik yönetimi için kullanıcı kimliği
+
+
+2. BİLGİLERİN KULLANIM AMAÇLARI
+================================
+
+Toplanan bilgiler aşağıdaki amaçlarla kullanılır:
+
+2.1 Hizmet Sağlama
+------------------
+• Hesap oluşturma ve kimlik doğrulama
+• İlerleme takibi ve istatistik hesaplama
+• Kişiselleştirilmiş içerik ve öneriler sunma
+• Çevrimdışı erişim ve veri senkronizasyonu
+
+2.2 İletişim
+------------
+• Motivasyon bildirimleri gönderme (izninizle)
+• Hatırlatıcılar ve hedef takipleri
+• Kilometre taşı kutlamaları
+• Teknik destek sağlama
+
+2.3 Uygulama İyileştirme
+------------------------
+• Performans optimizasyonu
+• Hata ayıklama ve sorun giderme
+• Yeni özellikler geliştirme
+
+2.4 Güvenlik
+------------
+• Hesap güvenliğini sağlama
+• Sahtekarlık ve kötüye kullanım önleme
+• Kullanım Şartları'nın uygulanması
+
+
+3. VERİ SAKLAMA VE GÜVENLİK
+============================
+
+3.1 Veri Saklama Yeri
+---------------------
+Tüm kullanıcı verileri Supabase bulut altyapısında şifreli olarak saklanır. Supabase, endüstri standardı güvenlik protokolleri kullanır ve SOC 2 Type II sertifikalıdır.
+
+3.2 Şifreleme
+-------------
+• İletimde: Tüm veri transferleri SSL/TLS protokolü ile şifrelenir
+• Depolamada: Veriler AES-256 şifreleme ile korunur
+• Şifreler: Asla düz metin olarak saklanmaz, bcrypt hash algoritması kullanılır
+
+3.3 Yerel Veri Depolama
+-----------------------
+Çevrimdışı erişim için bazı veriler cihazınızda yerel olarak saklanır. Bu veriler:
+• Cihazınızın güvenli depolama alanında tutulur
+• Uygulamadan çıkış yaptığınızda silinebilir
+• Diğer uygulamalar tarafından erişilemez
+
+
+4. ÜÇÜNCÜ TARAF HİZMETLER
+==========================
+
+Uygulamamız aşağıdaki üçüncü taraf hizmetlerini kullanır:
+
+4.1 Supabase (Veri Saklama ve Kimlik Doğrulama)
+------------------------------------------------
+• Amaç: Kullanıcı verileri, kimlik doğrulama, veritabanı
+• Veri Türü: Yukarıda belirtilen tüm kullanıcı verileri
+• Gizlilik Politikası: supabase.com/privacy
+
+4.2 RevenueCat (Abonelik Yönetimi)
+----------------------------------
+• Amaç: Platformlar arası satın alma işlemleri yönetimi
+• Veri Türü: Kullanıcı kimliği, satın alma geçmişi, abonelik durumu
+• Gizlilik Politikası: revenuecat.com/privacy
+
+4.3 Google Sign-In
+------------------
+• Amaç: Google hesabı ile oturum açma
+• Veri Türü: E-posta adresi, profil bilgileri
+• Gizlilik Politikası: policies.google.com/privacy
+
+4.4 Apple Sign-In
+-----------------
+• Amaç: Apple hesabı ile oturum açma
+• Veri Türü: E-posta adresi (veya gizli e-posta), profil bilgileri
+• Gizlilik Politikası: apple.com/legal/privacy
+
+ÖNEMLİ NOT: Verilerinizi reklam amacıyla üçüncü taraflarla paylaşmıyoruz. Uygulamamızda reklam yok ve veri satışı yapılmamaktadır.
+
+
+5. VERİ PAYLAŞIMI
+=================
+
+Kişisel verileriniz aşağıdaki durumlar dışında üçüncü taraflarla paylaşılmaz:
+
+• Yasal Zorunluluk: Yasal süreçler, mahkeme kararları veya hükümet talepleri
+• Haklarımızı Koruma: Dolandırıcılık veya güvenlik tehditleri durumunda
+• İş Transferi: Şirket birleşmesi, satış veya varlık transferi durumunda (önceden bilgilendirilirsiniz)
+• İzninizle: Açık rızanız dahilinde diğer paylaşımlar
+
+
+6. ÇOCUKLARIN GİZLİLİĞİ
+========================
+
+Uygulamamız 13 yaş altı çocuklara yönelik değildir. Bilerek 13 yaş altı çocuklardan kişisel bilgi toplamıyoruz. Ebeveynseniz ve çocuğunuzun bize kişisel bilgi sağladığını öğrenirseniz, lütfen bizimle iletişime geçin.
+
+
+7. KULLANICI HAKLARI
+=====================
+
+GDPR ve KVKK dahil veri koruma yasaları kapsamında aşağıdaki haklara sahipsiniz:
+
+7.1 Erişim Hakkı
+----------------
+Hakkınızda sakladığımız kişisel verilere erişim talep edebilirsiniz.
+
+7.2 Düzeltme Hakkı
+------------------
+Yanlış veya eksik bilgilerinizi düzeltebilirsiniz. Profil ayarlarından kendiniz güncelleyebilirsiniz.
+
+7.3 Silme Hakkı ("Unutulma Hakkı")
+----------------------------------
+Hesabınızı ve tüm verilerinizi silme talebinde bulunabilirsiniz:
+• Uygulama içinden: Profil > Hesabı Sil
+• E-posta yoluyla: Aşağıdaki iletişim bilgilerinden talep gönderin
+
+7.4 Veri Taşınabilirliği
+------------------------
+Verilerinizin bir kopyasını makine tarafından okunabilir formatta talep edebilirsiniz.
+
+7.5 İtiraz Etme Hakkı
+---------------------
+Verilerinizin işlenmesine itiraz edebilir veya bildirimlerden çıkabilirsiniz.
+
+VERİ SİLME SÜRECİ: Hesap silme talebiniz 30 gün içinde işleme alınır. Yasal saklama gereksinimleri dışında tüm verileriniz kalıcı olarak silinir.
+
+
+8. VERİ SAKLAMA SÜRESİ
+=======================
+
+• Aktif Hesaplar: Hesabınız aktif olduğu sürece veriler saklanır
+• Hesap Silme: Silme talebinden sonra 30 gün içinde tüm veriler silinir
+• Pasif Hesaplar: 3 yıl süreyle giriş yapılmayan hesaplar otomatik olarak silinebilir
+• Yedekleme: Silinen veriler yedekleme sistemlerinden 90 gün içinde tamamen kaldırılır
+• Yasal Kayıtlar: Yasal yükümlülükler için gerekli minimum veriler daha uzun süre saklanabilir
+
+
+9. ULUSLARARASI VERİ TRANSFERİ
+===============================
+
+Verileriniz Avrupa Ekonomik Alanı (EEA) dışındaki sunucularda saklanabilir. Supabase, veri transferlerinde uygun güvenlik önlemlerini alır ve GDPR gerekliliklerine uyar.
+
+
+10. ÇEREZLER VE İZLEME TEKNOLOJİLERİ
+=====================================
+
+Uygulamamız şu teknolojileri kullanır:
+• Oturum Yönetimi: Giriş durumunuzu hatırlamak için (AsyncStorage)
+• Tercih Kayıtları: Uygulama ayarlarınızı saklamak için
+• Çevrimdışı Önbellek: Çevrimdışı erişim için veri depolama
+
+NOT: Analitik veya reklam amaçlı takip çerezleri kullanmıyoruz.
+
+
+11. GİZLİLİK POLİTİKASI GÜNCELLEMELERİ
+=======================================
+
+Bu Gizlilik Politikası zaman zaman güncellenebilir. Önemli değişiklikler yapıldığında:
+• Uygulama içinde bildirim gösterilir
+• E-posta ile bilgilendirilirsiniz (önemli değişikliklerde)
+• "Son Güncelleme" tarihi değiştirilir
+
+Güncellenmiş politika, yayınlandıktan sonra uygulamayı kullanmaya devam ederseniz kabul edilmiş sayılır.
+
+
+12. CALIFORNIA GİZLİLİK HAKLARI (CCPA)
+=======================================
+
+California sakinleriyseniz, CCPA kapsamında ek haklara sahipsiniz:
+• Toplanan kişisel bilgileri bilme hakkı
+• Kişisel bilgilerin satışını reddetme hakkı (Not: Veri satmıyoruz)
+• Silme hakkı
+• Ayrımcılığa uğramama hakkı
+
+
+13. GÜVENLİK İHLALİ BİLDİRİMİ
+==============================
+
+Veri güvenliği ihlali durumunda:
+• 72 saat içinde ilgili otoritelere bildirim yapılır
+• Etkilenen kullanıcılar e-posta ile bilgilendirilir
+• Alınan önlemler ve öneriler paylaşılır
+
+
+14. İLETİŞİM
+============
+
+Gizlilik politikası hakkında sorularınız veya talepleriniz için:
+
+• E-posta: privacy@sekerrehberim.com
+• Uygulama İçi: Profil > Destek > Gizlilik Talebi
+• Cevap Süresi: 5 iş günü içinde yanıt verilir
+
+
+═══════════════════════════════════════════════════════════════════════════
+
+
+SUGAR GUIDE - PRIVACY POLICY
+=============================
+
+Last Updated: December 28, 2025
+
+Sugar Guide ("we", "our", "app") takes your privacy seriously. This Privacy Policy explains what information is collected when using the Sugar Guide mobile application, how it is used, and how it is protected.
+
+IMPORTANT: By using the app, you agree to the information collection and use practices described in this Privacy Policy.
+
+
+1. INFORMATION WE COLLECT
+==========================
+
+1.1 Personal Information
+------------------------
+Our app collects the following personal information to provide services:
+
+• Account Information: Email address, full name, password (encrypted)
+• Profile Information: Display name, profile picture (optional), goal type (reduce/quit), start date
+• Authentication: Information provided through Google Sign-In or Apple Sign-In
+
+1.2 Health and Progress Data
+-----------------------------
+We collect the following information to provide the app's core functionality:
+
+• Daily Progress: Sugar consumption records, daily notes, dates
+• Health Metrics: Energy level, sleep quality, mood assessments (estimated values)
+• Milestones: Achieved goals and dates
+• Quit Reasons: Your motivational sources and goals
+• Triggers: Situations that trigger sugar cravings (emotional, environmental, situational)
+• Coping Strategies: Methods you use to deal with triggers
+• Relapse Logs: Slip situations, reasons, and notes
+• Time Capsules: Messages you write to your future self and opening dates
+• Favorite Activities: Pleasure activities and experience logs
+• Favorite Alternatives: Healthy sweetener alternatives you like
+
+1.3 Educational Content Interactions
+------------------------------------
+• Bookmarked Articles: Educational content you've saved
+• Reading Progress: Your article reading status and progress
+
+1.4 Notification Data
+---------------------
+• Notification Preferences: Your notification settings, preferred times, quiet hours
+• Notification History: Dates and types of sent notifications
+• Push Notification Token: Device token for sending notifications
+
+1.5 Device and Usage Information
+---------------------------------
+• Device Information: Operating system, app version, language preference
+• Camera Access: When barcode scanning feature is used (only at that moment)
+• Network Status: Offline/online status (for synchronization)
+
+1.6 Subscription Information
+-----------------------------
+• Purchase Records: Premium subscription status and transaction history
+• RevenueCat ID: User ID for cross-platform subscription management
+
+
+2. HOW WE USE INFORMATION
+==========================
+
+The collected information is used for the following purposes:
+
+2.1 Service Provision
+----------------------
+• Account creation and authentication
+• Progress tracking and statistics calculation
+• Providing personalized content and recommendations
+• Offline access and data synchronization
+
+2.2 Communication
+-----------------
+• Sending motivational notifications (with your permission)
+• Reminders and goal tracking
+• Milestone celebrations
+• Providing technical support
+
+2.3 App Improvement
+-------------------
+• Performance optimization
+• Debugging and troubleshooting
+• Developing new features
+
+2.4 Security
+------------
+• Ensuring account security
+• Preventing fraud and abuse
+• Enforcing Terms of Service
+
+
+3. DATA STORAGE AND SECURITY
+=============================
+
+3.1 Data Storage Location
+--------------------------
+All user data is stored encrypted on Supabase cloud infrastructure. Supabase uses industry-standard security protocols and is SOC 2 Type II certified.
+
+3.2 Encryption
+--------------
+• In Transit: All data transfers are encrypted with SSL/TLS protocol
+• At Rest: Data is protected with AES-256 encryption
+• Passwords: Never stored in plain text, bcrypt hash algorithm is used
+
+3.3 Local Data Storage
+----------------------
+Some data is stored locally on your device for offline access. This data:
+• Is stored in your device's secure storage area
+• Can be deleted when you log out of the app
+• Cannot be accessed by other applications
+
+
+4. THIRD-PARTY SERVICES
+========================
+
+Our app uses the following third-party services:
+
+4.1 Supabase (Data Storage and Authentication)
+-----------------------------------------------
+• Purpose: User data, authentication, database
+• Data Type: All user data specified above
+• Privacy Policy: supabase.com/privacy
+
+4.2 RevenueCat (Subscription Management)
+-----------------------------------------
+• Purpose: Cross-platform purchase transaction management
+• Data Type: User ID, purchase history, subscription status
+• Privacy Policy: revenuecat.com/privacy
+
+4.3 Google Sign-In
+------------------
+• Purpose: Sign in with Google account
+• Data Type: Email address, profile information
+• Privacy Policy: policies.google.com/privacy
+
+4.4 Apple Sign-In
+-----------------
+• Purpose: Sign in with Apple account
+• Data Type: Email address (or private email), profile information
+• Privacy Policy: apple.com/legal/privacy
+
+IMPORTANT NOTE: We do not share your data with third parties for advertising purposes. Our app has no ads and we do not sell data.
+
+
+5. DATA SHARING
+===============
+
+Your personal data is not shared with third parties except in the following cases:
+
+• Legal Obligation: Legal processes, court orders, or government requests
+• Protecting Our Rights: In case of fraud or security threats
+• Business Transfer: In case of company merger, sale, or asset transfer (you will be notified in advance)
+• With Your Consent: Other sharing with your explicit consent
+
+
+6. CHILDREN'S PRIVACY
+======================
+
+Our app is not intended for children under 13. We do not knowingly collect personal information from children under 13. If you are a parent and learn that your child has provided us with personal information, please contact us.
+
+
+7. USER RIGHTS
+==============
+
+Under data protection laws including GDPR and CCPA, you have the following rights:
+
+7.1 Right to Access
+-------------------
+You can request access to personal data we hold about you.
+
+7.2 Right to Rectification
+--------------------------
+You can correct inaccurate or incomplete information. You can update it yourself from profile settings.
+
+7.3 Right to Deletion ("Right to be Forgotten")
+-----------------------------------------------
+You can request deletion of your account and all your data:
+• From within the app: Profile > Delete Account
+• Via email: Send a request through the contact information below
+
+7.4 Right to Data Portability
+------------------------------
+You can request a copy of your data in machine-readable format.
+
+7.5 Right to Object
+-------------------
+You can object to the processing of your data or opt-out of notifications.
+
+DATA DELETION PROCESS: Your account deletion request will be processed within 30 days. All your data will be permanently deleted except for legal retention requirements.
+
+
+8. DATA RETENTION PERIOD
+=========================
+
+• Active Accounts: Data is retained as long as your account is active
+• Account Deletion: All data is deleted within 30 days of deletion request
+• Inactive Accounts: Accounts not logged into for 3 years may be automatically deleted
+• Backups: Deleted data is completely removed from backup systems within 90 days
+• Legal Records: Minimum data required for legal obligations may be retained longer
+
+
+9. INTERNATIONAL DATA TRANSFER
+===============================
+
+Your data may be stored on servers outside the European Economic Area (EEA). Supabase takes appropriate security measures for data transfers and complies with GDPR requirements.
+
+
+10. COOKIES AND TRACKING TECHNOLOGIES
+======================================
+
+Our app uses the following technologies:
+• Session Management: To remember your login status (AsyncStorage)
+• Preference Storage: To store your app settings
+• Offline Cache: Data storage for offline access
+
+NOTE: We do not use tracking cookies for analytics or advertising purposes.
+
+
+11. PRIVACY POLICY UPDATES
+===========================
+
+This Privacy Policy may be updated from time to time. When significant changes are made:
+• A notification will be displayed in the app
+• You will be notified via email (for important changes)
+• The "Last Updated" date will be changed
+
+The updated policy is considered accepted if you continue to use the app after it is published.
+
+
+12. CALIFORNIA PRIVACY RIGHTS (CCPA)
+=====================================
+
+If you are a California resident, you have additional rights under the CCPA:
+• Right to know about personal information collected
+• Right to opt-out of sale of personal information (Note: We don't sell data)
+• Right to deletion
+• Right to non-discrimination
+
+
+13. DATA BREACH NOTIFICATION
+=============================
+
+In case of a data security breach:
+• Relevant authorities will be notified within 72 hours
+• Affected users will be notified via email
+• Measures taken and recommendations will be shared
+
+
+14. CONTACT
+===========
+
+For questions or requests about our privacy policy:
+
+• Email: privacy@sekerrehberim.com
+• In-App: Profile > Support > Privacy Request
+• Response Time: We respond within 5 business days
